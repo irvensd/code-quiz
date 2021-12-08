@@ -1,0 +1,55 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.viewscores {
+  color: violet;
+  display: flex;
+}
+
+.container {
+  position: absolute;
+  top: 30%;
+  left: 15%;
+  transform: translatey(-50%);
+  z-index: 2;
+}
+
+.container h1 {
+  position: relative;
+  text-align: center;
+}
+
+.container p {
+  text-align: center;
+  justify-content: center;
+}
+
+button {
+  background-color: darkblue;
+  position: absolute;
+  top: 120%;
+  left: 45%;
+  transform: translatey(-50%);
+  z-index: 2;
+}
+
+.start-btn {
+  font-size: 15px;
+}
+
+button h4 {
+  color: white;
+  font-size: large;
+}
+
+button h4:hover {
+  color: violet;
+}
+
+
+#time-count{
+text-align: right;
+
+}
