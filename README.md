@@ -21,7 +21,7 @@ THEN I can save my initials and score
 
 Built with HTML, CSS, JAVASCRIPT 
 
-Website: 
+Website: https://irvensd.github.io/code-quiz/
 
 Contribution: Made by Irvens Dupuy 
 
