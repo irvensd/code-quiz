@@ -1,32 +1,38 @@
+
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <title>Coding Quiz</title>
-</head>
-<body>
 
-    <div class="viewscores">View high scores</div>
-
-    <section class="container">
-    <header><h1>Coding Quiz Challenge</h1></header>
-        <p><h3>Try to answer the folowing code-related questions 
-            within the time limit. Keep in mind that incorrect answers
-            will penelize your score/time by ten seconds. 
-            </h3>
-        </p>
+<html>
+	<head>
+		<title>Code Quiz</title>
+		<meta charset="UTF-8">
+		<link href="./assets/css/style.css" rel="stylesheet" type="text/css">
         
-        <button onclick="myTimerObj.start()"><h4 class="start-btn">Start Quiz</h4></button>
-    </section>
-
-    <section>
-        <p id="demo"></p>
-        <p id="time-count">Time:</p>
-    </section>
-        
-    <script src="./assets/js/script.js"></script>
-</body>
+	</head>
+	<body>
+		<div id="nav">
+			<!-- view scores link on the top left of nav bar-->
+			<div class="left">
+                <a onclick="getScore()" href="#"><h4 >View Highscore</h4></a>
+			</div>
+			<!-- countdown timer on the top right of nav bar-->
+			<div class="right">
+				<h4 class="color">Time: <span class="color" id="timeLeft">0</span></h4>
+			</div>
+		</div>
+		<!--main body of quiz-->
+		<div id="quiz">
+            <div id="quizBody">      
+                <h1>   
+                    JavaScript Quiz!
+                </h1>
+                <h3>
+					Click to play!   
+                </h3>
+                <button onclick="start()">Start Quiz!</button>
+            </div>
+        </div>
+        <script src = "./assets/js/script.js" type="text/javascript"></script>
+	</body>
 </html>
+
+

@@ -1,11 +1,102 @@
+/* nav bar */
+.right {
+  float: right;
+  color: black;
+}
+
+.left {
+  float: left;
+}
+
+.color{
+  color: black;
+}
+
+#nav {
+  display: block;
+  background-color: white;
+  display: inline-block;
+  width: 98vw;
+  border-radius: 5px;
+  margin: 6px;
+}
+
+/* main section */
+
 body {
+  font-family: 'Roboto Slab', arial;
+  background-color: #fff;
+}
+
+#quizBody {
+  text-align: center;
+  padding: 12vh;
+}
+
+h4 {
+  padding: 10px 8px 10px 8px;
+  color: purple;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+
+button {
+  border: none;
+  background-color: darkblue;
+  color: white;
+  border-radius: 5px;
+  padding: 10px 16px 10px 16px;
+  font-size: 17px;
+  font-family: 'Roboto Slab', arial;
+  margin: 4px;
+}
+
+button:hover {
+  transition-duration: 0.4s;
+  background-color: purple;
+}
+
+#quiz {
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* body {
   padding: 0;
   margin: 0;
 }
 
-.viewscores {
+#viewscores {
   color: violet;
-  display: flex;
+  position: relative;
+  text-align: left;
+  top:33px;
+  right:-20px;
 }
 
 .container {
@@ -19,11 +110,13 @@ body {
 .container h1 {
   position: relative;
   text-align: center;
+  align-items: center;
 }
 
 .container p {
   text-align: center;
   justify-content: center;
+  align-items: center;
 }
 
 button {
@@ -48,8 +141,17 @@ button h4:hover {
   color: violet;
 }
 
+#time-slot{
+  position: relative;
+  text-align: right;
+  left:-50px
+}
 
 #time-count{
+position: relative;
 text-align: right;
+left: -30px;
+bottom: 33px;
+} 
+ */
 
-}
