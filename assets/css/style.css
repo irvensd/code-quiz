@@ -1,10 +1,9 @@
-/* nav bar */
-.right {
+.clock {
   float: right;
   color: black;
 }
 
-.left {
+.score {
   float: left;
 }
 
